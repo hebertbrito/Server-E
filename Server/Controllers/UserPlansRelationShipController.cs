@@ -21,7 +21,7 @@ namespace Server.Controllers
 
         public async Task<ActionResult<List<UserPlanModelResponse>>> GetListUserPlan([FromBody] UserPlanModel userPlanModel)
         {
-            DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass("Password=123456789;Persist Security Info=True;User ID=sqlserver;Initial Catalog=epharma;Data Source=34.95.222.223");
+            DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass("YOUR_CONNECTIONSTRING");
             try
             {
                 if (!ModelState.IsValid)

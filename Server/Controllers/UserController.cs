@@ -18,7 +18,7 @@ namespace Server.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateUser([FromBody] UserModel userModel)
         {
-            DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass("Password=123456789;Persist Security Info=True;User ID=sqlserver;Initial Catalog=epharma;Data Source=34.95.222.223");
+            DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass("YOUR_CONNECTIONSTRING");
 
             try
             {

@@ -18,7 +18,7 @@ namespace Server.Controllers
         [HttpPost]
         public async Task<ActionResult> CreatePlan([FromBody] PlanModel planModel)
         {
-            DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass("Password=123456789;Persist Security Info=True;User ID=sqlserver;Initial Catalog=epharma;Data Source=34.95.222.223");
+            DatabaseHelperClass databaseHelperClass = new DatabaseHelperClass("YOUR_CONNECTIONSTRING");
             try
             {
                 if(!ModelState.IsValid)
