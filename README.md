@@ -14,7 +14,7 @@
   * https://localhost:5001/
   
 ## Link para o frontend
-<a href="https://github.com/hebertbrito/e-pharma">e-pharma</a>
+<a href="https://github.com/hebertbrito/e-pharma">e-front</a>
 
 ## Link para o BackEnd versão atual que utilizara com o frontend e-server
 <a href="https://github.com/hebertbrito/Server-E-Pharma">e-server</a>
